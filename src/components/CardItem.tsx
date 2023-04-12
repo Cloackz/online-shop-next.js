@@ -95,17 +95,19 @@ const CardItem: React.FC<ItemProps> = ({
 			<ImageWrapper>
 				<Image width={210} height={230} src={img} alt={model} />
 			</ImageWrapper>
-			<InfoWrapper>
-				<Title>
-					<span style={{ marginRight: '5px' }}>{brand}</span>
-					<span>{model}</span>
-				</Title>
-				<Price>{price} $</Price>
-			</InfoWrapper>
+			<Title>
+				<span style={{ marginRight: '5px' }}>{brand}</span>
+				<span>{model}</span>
+			</Title>
 			<ThemeProvider theme={theme}>
-				<Button variant='outlined' endIcon={<AddShoppingCartIcon />}>
-					Add to cart
-				</Button>
+				<InfoWrapper>
+					<Price>{price} $</Price>
+					<Button
+						sx={{ width: '100px' }}
+						variant='outlined'
+						endIcon={<AddShoppingCartIcon />}
+					></Button>
+				</InfoWrapper>
 			</ThemeProvider>
 		</CardEl>
 	)
