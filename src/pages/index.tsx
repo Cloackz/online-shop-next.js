@@ -1,26 +1,11 @@
-// export const CustomButton = styled(Button)`
-// 	:hover {
-// 		color: black;
-// 	}
-// `
-
-// const Title = sc.h1`
-//   color: red;
-
-// `
-
-import Card from '@/components/CardItem'
-import Header from '@/components/Header'
-
-import Home from '@/pages/Home'
+import CardList from '@/components/CardList'
+import Layout from '@/components/Layout'
 
 const index = () => {
 	return (
-		<>
-			<Header />
-			<Home />
-			<Card />
-		</>
+		<Layout>
+			<CardList />
+		</Layout>
 	)
 }
 

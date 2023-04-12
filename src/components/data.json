@@ -1,0 +1,66 @@
+[
+	{
+		"id": 1,
+		"brand": "Iphone",
+		"model": "14 Pro Max",
+		"price": 120,
+		"category": "phone",
+		"img": "https://c.dns-shop.ru/thumb/st1/fit/500/500/fe8ea87e1cc00f90cfee61e30ab43923/a87566e1a761e1c090ea9f430097c6b7513f7dfffb8344890c6ee14ea956bd0f.jpg.webp"
+	},
+	{
+		"id": 2,
+		"brand": "Samsung",
+		"model": "Galaxy S23",
+		"price": 120,
+		"category": "phone",
+		"img": "https://c.dns-shop.ru/thumb/st4/fit/500/500/513c734815337407890f2b4cc40ce646/199fe1e1070ac69cd8ddd92d8ee38d0e2de08ad0a24535748d853b91cc2641ac.jpg.webp"
+	},
+	{
+		"id": 3,
+		"brand": "Realme",
+		"model": "10 Pro 5G",
+		"price": 120,
+		"category": "phone",
+		"img": "https://c.dns-shop.ru/thumb/st1/fit/500/500/3e3ba5a7aad35a16ad41a5801c2bcbf7/4384149f7072c7355d9f570c6cf5d67fb1f4a102bec4d3455a21175a0a6878b1.jpg.webp"
+	},
+	{
+		"id": 4,
+		"brand": "Xiaomi",
+		"model": "Redmi Note 9",
+		"price": 120,
+		"category": "phone",
+		"img": "https://c.dns-shop.ru/thumb/st1/fit/500/500/0e403297a74674ad28151bbe9bf5fb34/a78e293fcd1828f2abaeef137f6f6219bd4627f2517c137092ba472911c114b5.jpg.webp"
+	},
+	{
+		"id": 5,
+		"brand": "Google",
+		"model": "Pixel 6a",
+		"price": 120,
+		"category": "phone",
+		"img": "https://c.dns-shop.ru/thumb/st4/fit/500/500/6ccc148ce4dabd4a47b29656eaed4930/028674d4d2c7f724bf753913556393575e2adb3f9dbae8a0eb72b05d5c02dd65.jpg.webp"
+	},
+	{
+		"id": 6,
+		"brand": "OnePlus",
+		"model": "Nord 2",
+		"price": 120,
+		"category": "phone",
+		"img": "https://c.dns-shop.ru/thumb/st4/fit/500/500/706cf23d715aab564dcf8949d331c406/d957b736ebd013e6c53e5315d5928ef9b5fa58bd653998e06d8f25eb3590a9c7.jpg.webp"
+	},
+	{
+		"id": 7,
+		"brand": "Apple",
+		"model": "Watch Ultra",
+		"price": 120,
+		"category": "watch",
+		"img": "https://c.dns-shop.ru/thumb/st1/fit/500/500/bea30d0d52a2643d4e6a6d53f5e6a45a/d0a74d7a3fca84ac6067b9ca71b768235170e6c9d511625528a921c8a9ae5328.jpg.webp"
+	},
+	{
+		"id": 8,
+		"brand": "Samsung",
+		"model": "Tab S8 Ultra",
+		"category": "tablet",
+		"price": 120,
+		"img": "https://c.dns-shop.ru/thumb/st1/fit/500/500/96bc5da8f5ec2ca6a3b8c2ab83ca0302/1886f7b75339f62b344ad66fea75b58026a4048e43622b17927cc21ec7c5342a.jpg.webp"
+	}
+]

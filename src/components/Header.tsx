@@ -1,11 +1,8 @@
-import Container from '@/ui/Container'
+import { theme } from '@/ui/theme'
 import DevicesIcon from '@mui/icons-material/Devices'
 import SearchIcon from '@mui/icons-material/Search'
-import AppBar from '@mui/material/AppBar'
-import InputBase from '@mui/material/InputBase'
-import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
-import { styled } from '@mui/material/styles'
+import { ThemeProvider } from '@mui/material'
+import { AppBar, InputBase, Toolbar, Typography, styled } from '@mui/material/'
 
 const Search = styled('div')`
 	position: relative;
@@ -29,7 +26,7 @@ const SearchInput = styled(InputBase)`
 
 const Header: React.FC = () => {
 	return (
-		<Container>
+		<ThemeProvider theme={theme}>
 			<AppBar sx={{ background: '#fff', color: '#000' }} position='static'>
 				<Toolbar>
 					<Typography
@@ -52,7 +49,7 @@ const Header: React.FC = () => {
 					</Search>
 				</Toolbar>
 			</AppBar>
-		</Container>
+		</ThemeProvider>
 	)
 }
 
