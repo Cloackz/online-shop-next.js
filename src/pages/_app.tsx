@@ -1,9 +1,10 @@
+import '@ibm/plex/css/ibm-plex.min.css'
 import type { AppProps } from 'next/app'
 
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
 	
   body {
     margin: 0;

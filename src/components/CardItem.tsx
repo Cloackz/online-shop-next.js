@@ -102,11 +102,9 @@ const CardItem: React.FC<ItemProps> = ({
 			<ThemeProvider theme={theme}>
 				<InfoWrapper>
 					<Price>{price} $</Price>
-					<Button
-						sx={{ width: '100px' }}
-						variant='outlined'
-						endIcon={<AddShoppingCartIcon />}
-					></Button>
+					<Button sx={{ width: '100px' }} variant='outlined'>
+						<AddShoppingCartIcon />
+					</Button>
 				</InfoWrapper>
 			</ThemeProvider>
 		</CardEl>

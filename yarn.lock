@@ -242,6 +242,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/weak-memoize/-/weak-memoize-0.3.0.tgz#ea89004119dc42db2e1dba0f97d553f7372f6fcb"
   integrity sha512-AHPmaAx+RYfZz0eYu6Gviiagpmiyw98ySSlQvCUhVGDRtDFe4DBS0x1bSjdF3gqUDYOczB+yYvBTtEylYSdRhg==
 
+"@ibm/plex@^6.2.0":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@ibm/plex/-/plex-6.2.0.tgz#990ecb1c2a259529ef0e1ddadebb66b9a3c24158"
+  integrity sha512-0ddHQTHN2/LqGC9jahnb7+kR7Cq+EmI1Z+SUVmpehilMu0QZ6hNBU/lOM0O2as5pwZt8xMejKZw4qCMRW9vDLg==
+
 "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz#7e02e6eb5df901aaedb08514203b096614024098"
